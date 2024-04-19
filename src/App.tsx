@@ -1,5 +1,12 @@
+import Desktop from "./pages/desktop.page";
+import "./index.css";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Desktop />
+    </>
+  );
 }
 
 export default App;
