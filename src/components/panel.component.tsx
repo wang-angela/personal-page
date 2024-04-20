@@ -20,7 +20,7 @@ function Panel() {
       <div className="hover:bg-selection-grey rounded-full p-0.5 flex items-center">
         <h1 className="text-white text-sm font-sans mx-2">Activities</h1>
       </div>
-      <div className="hover:bg-selection-grey rounded-full p-0.5 flex items-center">
+      <div className="hover:bg-selection-grey rounded-full px-2 flex items-center">
         <h1 className="text-white text-sm font-sans mx-1">
           {time.toLocaleDateString([], {
             month: "short",
